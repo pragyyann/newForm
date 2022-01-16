@@ -1,0 +1,86 @@
+#pfft{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding : 40px;
+}
+
+body{
+    background-image:url('jerjge.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+#pfft h4{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 150%;
+}
+p{
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 15px;
+}
+#pfft input[type=text],
+#pfft input[type=email]{
+    border: none;
+    border-bottom: 1px solid#ffffff;
+    background-color: transparent;
+    outline: none;
+    height: 15px;
+    color: white;
+    display: 16px;
+     
+}
+
+h2{
+    border: none;
+    height: 20px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    background-color: tomato;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+}
+textarea{
+    border: none;
+    border-bottom: 1px solid#ffffff;
+    background-color: transparent;
+    outline: none;
+    height: 20px;
+    color: white;
+    display: 16px;
+     
+
+}
+#pfft select[name=role],
+#pfft select[name=love]{
+    border: none;
+    border-bottom: 1px solid#ffffff;
+    background-color: transparent;
+    outline: none;
+    height: 30px;
+    color: white;
+    display: 16px;
+
+}
